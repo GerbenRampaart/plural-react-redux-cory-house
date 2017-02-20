@@ -45,7 +45,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
 
         </form>
     );
-}
+};
 
 CourseForm.propTypes = {
     course: React.PropTypes.object.isRequired,
